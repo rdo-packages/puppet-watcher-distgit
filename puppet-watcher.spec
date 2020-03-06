@@ -52,4 +52,3 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/watcher/
 - Update to 15.4.0
 
 
-
