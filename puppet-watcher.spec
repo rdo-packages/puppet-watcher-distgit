@@ -67,3 +67,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/watcher/
 %changelog
 
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-watcher/commit/53e36c039cb17615878aa243c323db4695fd605c
