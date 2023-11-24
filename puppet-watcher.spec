@@ -1,9 +1,9 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0xa63ea142678138d1bb15f2e303bdfd64dd164087
+%global sources_gpg_sign 0x2ef3fe0ec2b075ab7458b5f8b702b20b13df2318
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:                   puppet-watcher
-Version:                20.3.1
+Version:                20.3.2
 Release:                1%{?dist}
 Summary:                Puppet module for OpenStack Watcher
 License:                ASL 2.0
@@ -65,6 +65,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/watcher/
 
 
 %changelog
+* Fri Nov 24 2023 RDO <dev@lists.rdoproject.org> 20.3.2-1
+- Update to 20.3.2
+
 * Thu May 19 2022 RDO <dev@lists.rdoproject.org> 20.3.1-1
 - Update to 20.3.1
 
